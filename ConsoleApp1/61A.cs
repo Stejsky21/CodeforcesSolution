@@ -13,6 +13,7 @@ namespace ConsoleApp1
             var firstLine = Console.ReadLine();
             var secondLine = Console.ReadLine();
             var result = string.Empty;
+
             for (int i = 0; i < firstLine.Length; i++)
             {
                 if (firstLine[i] == secondLine[i])
