@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Codeforces;
+using System;
 using System.Linq;
 
 namespace ConsoleApp1
@@ -7,6 +8,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Program116A.Solve();
         }
     }
 }
