@@ -2,9 +2,12 @@
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //   static void Main(string[] args)
+    class Program617A
     {
-        static void Main(string[] args)
+        static void Main617A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var vzdalenostKamarada = int.Parse(firstLine);
@@ -18,7 +21,7 @@ namespace ConsoleApp1
                 }
                 else
                 {
-                    result = (vzdalenostKamarada / 5) + 1; 
+                    result = (vzdalenostKamarada / 5) + 1;
                 }
             }
 
