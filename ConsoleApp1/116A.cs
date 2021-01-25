@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //  static void Main(string[] args)
+    class Program116A
     {
-        static void Main(string[] args)
+        static void Main116A(string[] args)
         {
             var stops = int.Parse(Console.ReadLine());
             var maximum = 0;
