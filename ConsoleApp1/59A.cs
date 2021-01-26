@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program59A
     {
-        static void Main(string[] args)
+        static void Main59A(string[] args)
         {
             var vstupniSlovo = Console.ReadLine();
             var velkaPismena = 0;
