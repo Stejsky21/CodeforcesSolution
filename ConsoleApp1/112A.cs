@@ -2,9 +2,12 @@
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program112A
     {
-        static void Main(string[] args)
+        static void Main112A(string[] args)
         {
             var first1 = Console.ReadLine();
             var second2 = Console.ReadLine();
