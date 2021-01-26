@@ -2,9 +2,12 @@
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program263A
     {
-        static void Main(string[] args)
+        static void Main263A(string[] args)
         {
             var matice = new int[5, 5];
             var result = 0;
@@ -37,7 +40,7 @@ namespace ConsoleApp1
                         }
 
                         result = posunRiadkov + posunStlpcov;
-                    
+
                     }
                 }
             }
