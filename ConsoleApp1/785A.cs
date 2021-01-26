@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program785A
     {
-        static void Main(string[] args)
+        static void Main785A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var pocetKostek = int.Parse(firstLine);
