@@ -3,10 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program546A
     {
-            static void Main(string[] args)
-
+        static void Main546A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var cenaBananu = int.Parse(firstLine.Split(' ')[0]);
