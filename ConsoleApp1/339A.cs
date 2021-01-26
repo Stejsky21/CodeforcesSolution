@@ -6,9 +6,9 @@ namespace ConsoleApp1
     //class Program
     //{
     //static void Main(string[] args)
-    class Program339A
-    {
-        static void Main339A(string[] args)
+        class Program339A
+        {
+            static void Main339A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var input = firstLine.Split('+');
