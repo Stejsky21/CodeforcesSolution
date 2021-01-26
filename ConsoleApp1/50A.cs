@@ -2,9 +2,12 @@
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program50A
     {
-        static void Main(string[] args)
+        static void Main50A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var inputArray = firstLine.Split(' ');
