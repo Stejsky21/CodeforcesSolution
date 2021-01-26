@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program1030A
     {
-        static void Main(string[] args)
+        static void Main1030A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var pocetTazanychLidi = int.Parse(firstLine);
