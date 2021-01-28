@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program110A
     {
-        static void Main(string[] args)
+        static void Main110A(string[] args)
         {
             var inputNumbers = Console.ReadLine();
             var result = 0;
