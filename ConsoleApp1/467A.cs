@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program467A
     {
-        static void Main(string[] args)
+        static void Main467A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var numberOfRooms = int.Parse(firstLine);
@@ -17,10 +20,10 @@ namespace ConsoleApp1
                 var peopleInRooms = int.Parse(secondLine.Split()[0]);
                 var capacityOfRooms = int.Parse(secondLine.Split()[1]);
 
-                    if (peopleInRooms + 1 < capacityOfRooms)
-                        {
-                        result++;
-                        }
+                if (peopleInRooms + 1 < capacityOfRooms)
+                {
+                    result++;
+                }
             }
             Console.WriteLine(result);
         }
