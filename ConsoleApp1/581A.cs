@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program581A
     {
-        static void Main(string[] args)
+        static void Main581A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var redSocks = int.Parse(firstLine.Split(' ')[0]);
@@ -19,20 +22,20 @@ namespace ConsoleApp1
 
             for (int i = 0; i < overallSocks; i++)
             {
-                    if(overallRedSocks > 0 && overallBlueSocks > 0)
-                    {
-                        differentSocks++;
-                        overallBlueSocks--;
-                        overallRedSocks--;
-                    }
-                    else
-                    {
+                if (overallRedSocks > 0 && overallBlueSocks > 0)
+                {
+                    differentSocks++;
+                    overallBlueSocks--;
+                    overallRedSocks--;
+                }
+                else
+                {
                     sameSocks++;
                     overallRedSocks--;
                     overallBlueSocks--;
-                    }
+                }
             }
-            
+
             Console.Write(differentSocks + " " + sameSocks);
         }
     }
