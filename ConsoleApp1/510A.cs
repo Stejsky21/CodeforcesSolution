@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program510A
     {
-        static void Main(string[] args)
+        static void Main510A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var n = int.Parse(firstLine.Split(' ')[0]);
@@ -17,7 +20,7 @@ namespace ConsoleApp1
             {
                 for (int j = 0; j < m; j++)
                 {
-                    if(i % 2 == 0)
+                    if (i % 2 == 0)
                     {
                         Console.Write("#");
                     }
