@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program155A
     {
-        static void Main(string[] args)
+        static void Main155A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var pocetPrikladu = int.Parse(firstLine);
@@ -32,7 +35,7 @@ namespace ConsoleApp1
                 }
             }
 
-                Console.WriteLine(maximum + minimum);
+            Console.WriteLine(maximum + minimum);
         }
     }
 }
