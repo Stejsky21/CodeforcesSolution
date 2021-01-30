@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 
 namespace ConsoleApp1
@@ -11,27 +11,27 @@ namespace ConsoleApp1
         static void Main155A(string[] args)
         {
             var firstLine = Console.ReadLine();
-            var pocetPrikladu = int.Parse(firstLine);
+            var numberOfExamples = int.Parse(firstLine);
             var secondLine = Console.ReadLine().Split(' ');
-            var aktualneMaximum = int.Parse(secondLine[0]);
-            var aktualneMinimum = int.Parse(secondLine[0]);
-            var aktualneBodu = 0;
+            var actualMaximum = int.Parse(secondLine[0]);
+            var actualMinimum = int.Parse(secondLine[0]);
+            var actualPoints = 0;
             var maximum = 0;
             var minimum = 0;
 
-            for (int i = 0; i < pocetPrikladu; i++)
+            for (int i = 0; i < numberOfExamples; i++)
             {
-                aktualneBodu = int.Parse(secondLine[i]);
+                actualPoints = int.Parse(secondLine[i]);
 
-                if (aktualneMaximum < aktualneBodu)
+                if (actualMaximum < actualPoints)
                 {
                     maximum++;
-                    aktualneMaximum = aktualneBodu;
+                    actualMaximum = actualPoints;
                 }
-                else if (aktualneMinimum > aktualneBodu)
+                else if (actualMinimum > actualPoints)
                 {
                     minimum++;
-                    aktualneMinimum = aktualneBodu;
+                    actualMinimum = actualPoints;
                 }
             }
 
