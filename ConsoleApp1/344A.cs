@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program344A
     {
-        static void Main(string[] args)
+        static void Main344A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var numbersOfMagnets = int.Parse(firstLine);
