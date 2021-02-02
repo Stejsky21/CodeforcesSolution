@@ -3,18 +3,20 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program520A
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program443A
     {
-        static void Main520A(string[] args)
+        static void Main443A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var abeceda = "abcdefghijklmnopqrstuvwxyz";
-            var secondLine = Console.ReadLine();
             var result = 0;
 
             foreach (var characterInAbeceda in abeceda)
             {
-                foreach (var inputCharacter in secondLine.ToLower())
+                foreach (var inputCharacter in firstLine.ToLower())
                 {
                     if (inputCharacter == characterInAbeceda)
                     {
@@ -23,14 +25,8 @@ namespace ConsoleApp1
                     }
                 }
             }
-            if (result >= 26)
-            {
-                Console.WriteLine($"YES");
-            }
-            else
-            {
-                Console.WriteLine($"NO");
-            }
+
+            Console.WriteLine(result);
         }
     }
 }

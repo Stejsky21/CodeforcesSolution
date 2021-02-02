@@ -9,12 +9,11 @@ namespace ConsoleApp1
         {
             var firstLine = Console.ReadLine();
             var abeceda = "abcdefghijklmnopqrstuvwxyz";
-            var secondLine = Console.ReadLine();
             var result = 0;
 
             foreach (var characterInAbeceda in abeceda)
             {
-                foreach (var inputCharacter in secondLine.ToLower())
+                foreach (var inputCharacter in firstLine.ToLower())
                 {
                     if (inputCharacter == characterInAbeceda)
                     {
@@ -23,14 +22,8 @@ namespace ConsoleApp1
                     }
                 }
             }
-            if (result >= 26)
-            {
-                Console.WriteLine($"YES");
-            }
-            else
-            {
-                Console.WriteLine($"NO");
-            }
+
+            Console.WriteLine(result);
         }
     }
 }
