@@ -3,6 +3,9 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
+    //class Program
+    //{
+    //static void Main(string[] args)
     class Program520A
     {
         static void Main520A(string[] args)
