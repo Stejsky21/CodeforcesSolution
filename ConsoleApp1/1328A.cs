@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program1328A
     {
-        static void Main(string[] args)
+        static void Main1328A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var NumberOfExamples = int.Parse(firstLine);
@@ -30,40 +33,3 @@ namespace ConsoleApp1
         }
     }
 }
-
-
-/*using System;
-using System.Linq;
-
-namespace ConsoleApp1
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            var firstLine = Console.ReadLine();
-            var n = long.Parse(firstLine);
-            long result = 0;
-
-            if (n % 2 == 0)
-            {
-                result = n / 2;
-            }
-            else
-            
-            {
-                result = (n + 1) / 2 * -1;
-            }
-
-            Console.WriteLine(result);
-        }
-    }
-}
-
-/* 4 2
- * 5 -3
- * 6 3
- * 7 -4
- * 8 4
- * 
- */
