@@ -2,9 +2,12 @@
 
 namespace HelloWorld
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program41A
     {
-        static void Main(string[] args)
+        static void Main41A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var secondLine = Console.ReadLine();
