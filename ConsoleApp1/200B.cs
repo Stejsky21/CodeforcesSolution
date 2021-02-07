@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program200B
     {
-        static void Main(string[] args)
+        static void Main200B(string[] args)
         {
             int n = int.Parse(Console.ReadLine());
             int[] drinks = Console.ReadLine().Split(' ').Select(x => int.Parse(x)).ToArray();
