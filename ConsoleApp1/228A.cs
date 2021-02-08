@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program228A
     {
-        static void Main(string[] args)
+        static void Main228A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var color1 = firstLine.Split(' ')[0];
@@ -15,15 +18,15 @@ namespace ConsoleApp1
 
             var result = 0;
 
-            if(color1 == color2 || color1 == color3 || color1 == color4)
+            if (color1 == color2 || color1 == color3 || color1 == color4)
             {
                 result++;
             }
-            if(color2 == color3 || color2 == color4)
+            if (color2 == color3 || color2 == color4)
             {
                 result++;
             }
-            if(color3 == color4)
+            if (color3 == color4)
             {
                 result++;
             }
