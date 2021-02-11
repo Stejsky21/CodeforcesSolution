@@ -1,57 +1,39 @@
 ﻿using System;
-using System.Linq;
-using System.Collections;
 
-namespace ConsoleApp1
+public class Program
 {
-    class Program
+    public static void Main()
     {
-        static void Main(string[] args)
+        var input = Console.ReadLine();
+        var friends = int.Parse(input.Split(' ')[0]);
+        var bottles = int.Parse(input.Split(' ')[1]);
+        var millilitersOfBottles = int.Parse(input.Split(' ')[2]);
+        var limes = int.Parse(input.Split(' ')[3]);
+        var slicesOfLimes = int.Parse(input.Split(' ')[4]);
+        var salt = int.Parse(input.Split(' ')[5]);
+        var drinkNeededForToast = int.Parse(input.Split(' ')[6]);
+        var saltNeededForToast = int.Parse(input.Split(' ')[7]);
+
+        var millilitersOfAllBottles = bottles * millilitersOfBottles;
+        var drinksOnToasts = millilitersOfAllBottles / drinkNeededForToast;
+        var limetsOnToasts = limes * slicesOfLimes;
+        var saltOnToasts = salt / saltNeededForToast;
+
+        var min1 = drinksOnToasts / friends;
+        var min2 = limetsOnToasts / friends;
+        var min3 = saltOnToasts / friends;
+
+        if (min1 < min2 && min1 < min3)
         {
-            var firstLine = Console.ReadLine();
-            var levels = int.Parse(firstLine);
-
-            var secondLine = Console.ReadLine().Split(' ');
-            var num = int.Parse(secondLine[0]);
-
-            var thirdLine = Console.ReadLine().Split(' ');
-            var numberOfLevelPassedLittleX = int.Parse(thirdLine[0]);
-
-            int[] levelsPassedByLittleX = new int[101];
-            int[] levelsPassedByLittleY = new int[101];
-
-            var result = 0;
-
-            for (int i = 1; i <= num; i++)
-            {
-                levelsPassedByLittleX[i - 1] = int.Parse(secondLine[i]);
-            }
-            for (int j = 1; j <= numberOfLevelPassedLittleX; j++)
-            {
-                levelsPassedByLittleY[j - 1] = int.Parse(thirdLine[j]);
-            }
-
-            var levelsPassedByLittleXY = levelsPassedByLittleX.Union(levelsPassedByLittleY).ToArray();
-
-            for (int k = 1; k <= levels; k++)
-            {
-                for (int l = 0; l < levelsPassedByLittleXY.Length; l++)
-                {
-                    if (k == levelsPassedByLittleXY[l])
-                    {
-                        result++;
-                        break;
-                    }
-                }
-            }
-            if (result == levels)
-            {
-                Console.WriteLine("I become the guy.");
-            }
-            else
-            {
-                Console.WriteLine("Oh, my keyboard!");
-            }
+            Console.WriteLine(min1);
+        }
+        else if (min2 < min1 && min2 < min3)
+        {
+            Console.WriteLine(min2);
+        }
+        else
+        {
+            Console.WriteLine(min3);
         }
     }
 }
