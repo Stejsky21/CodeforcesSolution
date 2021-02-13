@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program148A
     {
-        static void Main(string[] args)
+        static void Main148A(string[] args)
         {
             var panHit = int.Parse(Console.ReadLine().Split()[0]);
             var closedTail = int.Parse(Console.ReadLine().Split()[0]);
