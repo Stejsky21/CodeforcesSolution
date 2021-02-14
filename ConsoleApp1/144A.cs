@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program144A
     {
-        static void Main(string[] args)
+        static void Main144A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var numberOfSoldiers = int.Parse(firstLine);
