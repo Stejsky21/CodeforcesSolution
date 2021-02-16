@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program750A
     {
-        static void Main(string[] args)
+        static void Main750A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var exercises = int.Parse(firstLine.Split(' ')[0]);
