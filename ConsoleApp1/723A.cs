@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program723A
     {
-        static void Main(string[] args)
+        static void Main723A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var distance = firstLine.Split(' ');
