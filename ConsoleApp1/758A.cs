@@ -3,9 +3,12 @@ using System.Linq;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program758A
     {
-        static void Main(string[] args)
+        static void Main758A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var numberOfCitizens = int.Parse(firstLine);
@@ -21,7 +24,6 @@ namespace ConsoleApp1
             }
 
             var maxValue = arrayOfWelfare.Max();
-
             var result = 0;
 
             for (int j = 0; j < numberOfCitizens; j++)
