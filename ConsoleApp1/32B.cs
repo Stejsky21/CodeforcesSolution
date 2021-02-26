@@ -4,9 +4,12 @@ using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program32B
     {
-        static void Main(string[] args)
+        static void Main32B(string[] args)
         {
             var firstLine = Console.ReadLine();
             var result = "";
