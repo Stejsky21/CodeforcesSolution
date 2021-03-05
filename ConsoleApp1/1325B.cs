@@ -4,9 +4,12 @@ using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program1325B
     {
-        static void Main(string[] args)
+        static void Main1325B(string[] args)
         {
             var firstLine = Console.ReadLine();
             var exercises = int.Parse(firstLine);
@@ -15,7 +18,7 @@ namespace ConsoleApp1
             {
                 var secondLine = Console.ReadLine();
                 var arrayLenght = int.Parse(secondLine);
-                var thirdLine = Console.ReadLine().Split(' ') ;
+                var thirdLine = Console.ReadLine().Split(' ');
                 var arrayNumbers = thirdLine;
 
                 int[] newArray = new int[arrayLenght];
