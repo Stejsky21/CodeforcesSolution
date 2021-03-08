@@ -4,9 +4,12 @@ using System.Collections.Generic;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program1337A
     {
-        static void Main(string[] args)
+        static void Main1337A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var exercises = int.Parse(firstLine);
