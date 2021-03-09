@@ -5,9 +5,12 @@ using System.Numerics;
 
 namespace ConsoleApp1
 {
-    class Program
+    //class Program
+    //{
+    //static void Main(string[] args)
+    class Program1110A
     {
-        static void Main(string[] args)
+        static void Main1110A(string[] args)
         {
             var firstLine = Console.ReadLine();
             var b = int.Parse(firstLine.Split(' ')[0]);
